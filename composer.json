@@ -1,0 +1,27 @@
+{
+    "name": "iteclab/itec-creator",
+    "description": "Laravel Web Installer For iteclab",
+    "require": {
+        "php": "^7.0.0|^8.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iteclab",
+            "email": "iteclabor@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iteclab\\itecCreator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "iteclab\\itecCreator\\Providers\\itecCreatorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
